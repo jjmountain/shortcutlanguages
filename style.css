@@ -1,0 +1,70 @@
+/* Fonts and Colors*/
+body{
+  background: white;
+  color: rgb(20, 20, 20);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+h1{
+  font-family: 'Open Sans', sans-serif;
+  color: blue;
+  font-weight: lighter;
+  font-size: 50px;
+}
+h2 {
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  text-decoration: none;
+  color: green;
+}
+
+/* Custom Design */
+#banner {
+  background: 
+    linear-gradient(
+      rgba(200, 200, 200, 1),
+      rgba(200, 200, 200, 0)
+    ),
+    url("images/architecture-art-bright-219000.jpg");
+  background-size: cover;
+  padding: 150px 0;
+  text-align: center;
+  color: white;
+  }
+
+#banner h1 {
+    color: white;
+    font-size: 60px
+  }
+
+#banner p {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+
+.card {
+  padding: 50px;
+  text-align: center;
+}
+
+#footer {
+  background: black;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#footer a {
+  color: grey;
+  font-size: 20px;
+}
+
+#footer a:hover {
+  color: white;
+}
